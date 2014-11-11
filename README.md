@@ -9,3 +9,4 @@ Completed
 1. Installing Rust
 - Hello, world!
 - Hello, Cargo!
+- Variable bindings
