@@ -12,3 +12,4 @@ Completed
 - Variable bindings
 - If
 - Functions
+- Comments

@@ -3,15 +3,21 @@ fn main() {
 
     let y = if x == 5 { 10i } else { 5i };
 
-    print_number(add_one(y));
+    println!("number: {}", add_one(y));
 }
 
-fn print_number(x: int) {
-    println!("number: {}", x);
-}
-
+/// `add_one` adds one to the given int
+/// 
+/// # Arguments
+/// 
+/// * `x` - The integer to which to add one.
+/// 
+/// # Example
+/// 
+/// ```rust
+/// let x = 5i;
+/// x = add_one(x); // x is now 6i.
+/// ```
 fn add_one(x: int) -> int {
-    if x > 4 { return x };
-
     x + 1
 }
