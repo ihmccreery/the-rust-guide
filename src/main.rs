@@ -1,5 +1,7 @@
 fn main() {
-    let x: int = 5i;
+    let x: int = 4;
 
-    println!("Hello, world!  The value of 'x' is: {}", x);
+    let y = if x == 5 { 10i } else { 5i };
+
+    println!("y is {}", y);
 }
