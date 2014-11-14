@@ -3,5 +3,15 @@ fn main() {
 
     let y = if x == 5 { 10i } else { 5i };
 
-    println!("y is {}", y);
+    print_number(add_one(y));
+}
+
+fn print_number(x: int) {
+    println!("number: {}", x);
+}
+
+fn add_one(x: int) -> int {
+    if x > 4 { return x };
+
+    x + 1
 }

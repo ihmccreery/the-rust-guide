@@ -11,3 +11,4 @@ Completed
 - Hello, Cargo!
 - Variable bindings
 - If
+- Functions
